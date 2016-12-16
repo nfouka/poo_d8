@@ -1,0 +1,13 @@
+name: OOP Example 09
+type: module
+description: 'More Interfaces.'
+package: OOP Example modules
+# core: 8.x
+dependencies:
+  - oop_examples
+
+# Information added by Drupal.org packaging script on 2015-10-18
+version: '8.x-1.3'
+core: '8.x'
+project: 'oop_examples'
+datestamp: 1445131441
