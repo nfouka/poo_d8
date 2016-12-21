@@ -1,0 +1,5 @@
+name: jobeet
+type: module
+description: Jobeet module find your job quickly in France
+core: 8.x
+package: Custom

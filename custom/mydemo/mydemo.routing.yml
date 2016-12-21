@@ -1,0 +1,7 @@
+mydemo.pager:
+  path: '/mydemo/pager'
+  defaults:
+    _controller: 'Drupal\mydemo\Controller\Table::pager'
+    _title: 'Table With Pager'
+  requirements:
+    _permission: 'access content'

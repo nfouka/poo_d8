@@ -1,0 +1,38 @@
+
+jobeet.jobeet_controller_hello:
+  path: '/jobeet/hello/{name}'
+  defaults:
+    _controller: '\Drupal\jobeet\Controller\JobeetController::hello'
+    _title: 'index'
+  requirements:
+    _permission: 'access content'
+
+jobeet.jobeet_controller_validate:
+  path: '/jobeet/validate/{id}'
+  defaults:
+    _controller: '\Drupal\jobeet\Controller\JobeetController::validate'
+    _title: 'index'
+  requirements:
+    _permission: 'access content'
+
+
+jobeet.jobeet_controller_refresh:
+  path: '/jobeet/refresh'
+  defaults:
+    _controller: '\Drupal\jobeet\Controller\JobeetController::refresh'
+    _title: 'clear cache -update jobs'
+  requirements:
+    _permission: 'access content'
+
+jobeet.jobeet_controller_getJob:
+  path: '/jobeet/getJobById'
+  defaults:
+    _controller: '\Drupal\jobeet\Controller\JobeetController::getJobById'
+    _title: 'GetJob byId '
+  requirements:
+    _permission: 'access content'
+
+
+
+
+

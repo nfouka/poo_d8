@@ -1,0 +1,14 @@
+{
+  "name": "drupal/jobeet",
+  "type": "drupal-module",
+  "description": "Jobeet module find your job quickly in France",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/jobeet",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/jobeet",
+    "source": "http://cgit.drupalcode.org/jobeet"
+  },
+  "require": { }
+}

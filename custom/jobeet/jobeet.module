@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains jobeet.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function jobeet_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the jobeet module.
+    case 'help.page.jobeet':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Jobeet module find your job quickly in France') . '</p>';
+      return $output;
+
+    default:
+  }
+}
